@@ -49,5 +49,11 @@ public class HashTable {
         System.out.println(" ");
         System.out.println("---------------------");
 
+        // checking whether a key exists in table or not
+        if (h.containsKey(12))
+            System.out.println("Key exists in the table");
+        else System.out.println("key does not exists in the table");
+        System.out.println(" ");
+        System.out.println("--------------------");
     }
 }
