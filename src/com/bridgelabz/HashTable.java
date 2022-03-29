@@ -18,7 +18,15 @@ public class HashTable {
         h.put(8, "L");
         h.put(9, "E");
 
-        System.out.println("Welcome to the Hash table");
         System.out.println(h);
+        System.out.println(" ");
+        System.out.println("----------------------");
+
+        // To Get the value of key
+        String v = h.get(4); // to get the data at 4th index
+        System.out.println("The value of the key is: ");
+        System.out.println(v); // to print the value at above index
+        System.out.println(" ");
+        System.out.println("--------------------");
     }
 }
