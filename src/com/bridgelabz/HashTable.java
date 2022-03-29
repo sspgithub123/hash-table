@@ -18,6 +18,7 @@ public class HashTable {
         h.put(8, "L");
         h.put(9, "E");
 
+        System.out.println("Welcome to the Hash table");
         System.out.println(h);
         System.out.println(" ");
         System.out.println("----------------------");
@@ -28,5 +29,17 @@ public class HashTable {
         System.out.println(v); // to print the value at above index
         System.out.println(" ");
         System.out.println("--------------------");
+
+        // Removing a key and its value
+        h.remove(5); // to delete key and value at index 5
+        System.out.println("Removing the key and value: ");
+        System.out.println(h);
+        System.out.println(" ");
+        System.out.println("-------------------");
+
+        // checking if value is present in the hash table or not
+        System.out.println("Is the value 'L' present? " + h.contains("L"));
+        System.out.println(" ");
+        System.out.println("-------------------");
     }
 }
