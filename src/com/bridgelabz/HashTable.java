@@ -37,9 +37,5 @@ public class HashTable {
         System.out.println(" ");
         System.out.println("-------------------");
 
-        // checking if value is present in the hash table or not
-        System.out.println("Is the value 'L' present? " + h.contains("L"));
-        System.out.println(" ");
-        System.out.println("-------------------");
     }
 }
